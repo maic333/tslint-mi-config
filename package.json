@@ -1,0 +1,27 @@
+{
+  "name": "tslint-mi-config",
+  "version": "1.0.0",
+  "description": "TSLint configuration rules",
+  "main": "tslint.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maic333/tslint-mi-config.git"
+  },
+  "keywords": [
+    "tslint",
+    "config",
+    "mi",
+    "typescript",
+    "ts"
+  ],
+  "author": "Maic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maic333/tslint-mi-config/issues"
+  },
+  "homepage": "https://github.com/maic333/tslint-mi-config#readme",
+  "dependencies": {
+    "tslint-config-standard": "^8.0.1",
+    "tslint-eslint-rules": "^5.4.0"
+  }
+}
