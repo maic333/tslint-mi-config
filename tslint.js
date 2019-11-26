@@ -57,6 +57,7 @@ module.exports = {
     "no-duplicate-imports": false,
     "no-duplicate-super": true,
     "no-duplicate-variable": true,
+    "no-empty": false,
     "no-empty-interface": false,
     "no-eval": true,
     "no-floating-promises": false,
@@ -68,8 +69,9 @@ module.exports = {
     "no-trailing-whitespace": true,
     "no-unnecessary-initializer": true,
     "no-unused-expression": true,
-    "no-use-before-declare": true,
+    "no-use-before-declare": false,
     "no-var-keyword": true,
+    "object-curly-spacing": false,
     "prefer-const": true,
     "quotemark": [
       true,
