@@ -32,13 +32,10 @@ module.exports = {
       {
         "order": [
           "static-field",
-          "public-instance-field",
-          "protected-instance-field",
-          "private-instance-field",
           "static-method",
-          "public-instance-method",
-          "protected-instance-method",
-          "private-instance-method"
+          "instance-field",
+          "constructor",
+          "instance-method"
         ]
       }
     ],
@@ -68,7 +65,7 @@ module.exports = {
     "no-switch-case-fall-through": true,
     "no-trailing-whitespace": true,
     "no-unnecessary-initializer": true,
-    "no-unused-expression": true,
+    "no-unused-expression": false,
     "no-use-before-declare": false,
     "no-var-keyword": true,
     "object-curly-spacing": false,
@@ -80,7 +77,8 @@ module.exports = {
     "radix": true,
     "semicolon": [
       true,
-      "always"
+      "always",
+      "ignore-bound-class-methods"
     ],
     "space-before-function-paren": false,
     "trailing-comma": false,
